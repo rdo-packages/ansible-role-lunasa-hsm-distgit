@@ -1,0 +1,9 @@
+Verified-1: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Yatin Karel <ykarel@redhat.com>
+Verified+2: Yatin Karel <ykarel@redhat.com>
+Workflow+1: Yatin Karel <ykarel@redhat.com>
+Submitted-by: Yatin Karel <ykarel@redhat.com>
+Submitted-at: Wed, 10 Jun 2020 06:33:12 +0000
+Reviewed-on: https://review.rdoproject.org/r/27573
+Project: openstack/ansible-role-lunasa-hsm-distgit
+Branch: refs/heads/train-rdo
