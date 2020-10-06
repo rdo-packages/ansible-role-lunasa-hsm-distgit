@@ -15,9 +15,9 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:          %{rolename}
-Version:       0.1.0
-Release:       1%{?dist}
-Summary:       Ansible role for configuring Luna Network HSM
+Version:       1.0.0
+Release:       0.1%{?dist}
+Summary:       Ansible role for configuring Safenet Luna SA HSM clients
 
 Group:         System Environment/Base
 License:       ASL 2.0
@@ -59,6 +59,8 @@ export SKIP_PIP_INSTALL=1
 %{_datadir}/ansible/roles/
 
 %changelog
+* Tue Oct 06 2020 RDO <dev@lists.rdoproject.org> 1.0.0-0.1
+- Update to 1.0.0
 * Wed Jun 10 2020 Douglas Mendizábal <dmendiza@redhat.com> - 0.1.0-1
 - Update to 0.1.0
 
