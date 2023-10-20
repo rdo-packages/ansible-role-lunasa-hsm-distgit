@@ -6,8 +6,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:          %{rolename}
-Version:       XXX
-Release:       XXX
+Version:       6.0.0
+Release:       1%{?dist}
 Summary:       Ansible role for configuring Safenet Luna SA HSM clients
 
 Group:         System Environment/Base
@@ -62,3 +62,6 @@ export SKIP_PIP_INSTALL=1
 %{_datadir}/ansible/roles/
 
 %changelog
+* Fri Oct 20 2023 RDO <dev@lists.rdoproject.org> 6.0.0-1
+- Update to 6.0.0
+
