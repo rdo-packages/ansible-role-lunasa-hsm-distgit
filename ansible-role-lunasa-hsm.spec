@@ -1,12 +1,12 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xa63ea142678138d1bb15f2e303bdfd64dd164087
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 %global srcname ansible_role_lunasa_hsm
 %global rolename ansible-role-lunasa-hsm
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:          %{rolename}
-Version:       4.0.0
+Version:       4.0.1
 Release:       1%{?dist}
 Summary:       Ansible role for configuring Safenet Luna SA HSM clients
 
@@ -62,6 +62,9 @@ export SKIP_PIP_INSTALL=1
 %{_datadir}/ansible/roles/
 
 %changelog
+* Thu Feb 22 2024 RDO <dev@lists.rdoproject.org> 4.0.1-1
+- Update to 4.0.1
+
 * Fri Nov 04 2022 RDO <dev@lists.rdoproject.org> 4.0.0-1
 - Update to 4.0.0
 
