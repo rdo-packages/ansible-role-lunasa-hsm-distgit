@@ -63,3 +63,4 @@ export SKIP_PIP_INSTALL=1
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/ansible-role-lunasa-hsm/commit/5c101144bcb6db119fb0bf955fc8636c86baf33d
