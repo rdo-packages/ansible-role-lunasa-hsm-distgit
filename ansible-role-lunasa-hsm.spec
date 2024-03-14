@@ -59,6 +59,7 @@ export SKIP_PIP_INSTALL=1
 %doc README.rst
 %license LICENSE
 %{python3_sitelib}/%{srcname}-*.egg-info
+%{python3_sitelib}/defaults/main.yaml
 %{_datadir}/ansible/roles/
 
 %changelog
