@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d0d439b_1f10aa83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-14T11:30:26Z",
+      "side": 1,
+      "message": "we need https://review.openstack.org/#/q/I759d63ede6b9d5ebedf3ccc7dcb808055a0d009a",
+      "revId": "a46d0d199d7c68c4cc2e21c0028b771a137ac615",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
