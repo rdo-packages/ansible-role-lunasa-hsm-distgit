@@ -13,10 +13,10 @@ Summary:       Ansible role for configuring Safenet Luna SA HSM clients
 Group:         System Environment/Base
 License:       ASL 2.0
 URL:           https://opendev.org/openstack/ansible-role-lunasa-hsm
-Source0:       https://tarballs.openstack.org/%{rolename}/%{rolename}-%{upstream_version}.tar.gz
+Source0:       https://tarballs.openstack.org/%{rolename}/%{srcname}-%{upstream_version}.tar.gz
 # Required for tarball sources verification
 %if 0%{?sources_gpg} == 1
-Source101:        https://tarballs.openstack.org/%{rolename}/%{rolename}-%{upstream_version}.tar.gz.asc
+Source101:        https://tarballs.openstack.org/%{rolename}/%{srcname}-%{upstream_version}.tar.gz.asc
 Source102:        https://releases.openstack.org/_static/%{sources_gpg_sign}.txt
 %endif
 
@@ -43,7 +43,7 @@ Ansible role to configure Safenet Luna SA HSM clients
 %if 0%{?sources_gpg} == 1
 %{gpgverify}  --keyring=%{SOURCE102} --signature=%{SOURCE101} --data=%{SOURCE0}
 %endif
-%autosetup -n %{rolename}-%{upstream_version} -S git
+%autosetup -n %{srcname}-%{upstream_version} -S git
 #Remove ansible from requirements.txt as dependency on ansible is managed manually
 sed -i '/^ansible/d' requirements.txt
 
